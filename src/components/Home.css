@@ -1,0 +1,43 @@
+.home-container {
+    display: flex;
+}
+
+img {
+    width: 100%
+}
+
+.home-img {
+    flex-basis: 50%;
+    margin-right: 60px;
+}
+
+
+.home-description{
+    margin-left: 90px;
+    flex-basis: 40%;
+    align-self: center;
+}
+
+.gadgets{
+    color: #9400D3;
+}
+
+@media screen and (max-width: 777px){
+    .home-container {
+        flex-direction: column;
+    }
+
+    .home-description{
+        text-align: center;
+        margin-right: 40px;
+    }
+    .home-img {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 378px){
+    .home-description{
+        margin-left: 30px
+    }
+}

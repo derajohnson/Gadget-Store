@@ -1,0 +1,7 @@
+export const ADD_TO_CART = 'ADD_TO_CART'
+export const INCREMENT_COUNT = 'INCREMENT_COUNT'
+export const DECREMENT_COUNT = 'DECREMENT_COUNT'
+export const DELETE_ITEM = 'DELETE_ITEM'
+export const CHECK_OUT = 'CHECK_OUT'
+
+

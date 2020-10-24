@@ -1,0 +1,50 @@
+.popular-devices-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.product-content {
+    display: flex;
+    margin: 50px 0;
+}
+
+.category-name {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.product {
+    margin: 0 20px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.fa-star, .fa-star-half-o {
+    color: #FDC911;
+}
+
+.add-to-cart-btn {
+    background-color: #9F44C6;
+    border-radius: 10px;
+    border: 1px solid #9F44C6;
+    color: #ffffff;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.add-to-cart-btn:hover{
+    background-color: #8025a7;
+}
+
+
+@media screen and (max-width: 544px){
+    .product-content{
+        flex-direction: column;
+    }
+    .product{
+        margin-bottom: 40px;
+    }
+}
